@@ -10,6 +10,11 @@ what is automapper? is a simple little library built to solve a deceptively comp
 serviceCollection.AddAutoMapper(typeof(ProfileWrapper));
 ```
 
+you must add this package also 
+```
+AutoMapper.Extensions.Microsoft.DependencyInjection
+```
+
 make sure that you have the namespace for mapper to use their library
 ```
 using AutoMapper;
