@@ -4,15 +4,15 @@ what is automapper? is a simple little library built to solve a deceptively comp
 
 1. first is you need to install it to your ASP.NET Core Application
 
+you must add this package also 
+```
+AutoMapper.Extensions.Microsoft.DependencyInjection
+```
+
 2. Then after that you need to define it to services 
 
 ```
 serviceCollection.AddAutoMapper(typeof(ProfileWrapper));
-```
-
-you must add this package also 
-```
-AutoMapper.Extensions.Microsoft.DependencyInjection
 ```
 
 make sure that you have the namespace for mapper to use their library
